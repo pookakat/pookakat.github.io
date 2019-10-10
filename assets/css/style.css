@@ -62,7 +62,7 @@
     padding: 15px;
     font-family: 'Fjalla One', sans-serif;
     font-size: 40px;
-    text-shadow: 2px 2px 2px #0D0D0D
+    text-shadow: 1px 1px #0D0D0D;
 }
 h1{
     color: #c9ffff;
@@ -75,13 +75,14 @@ h1{
     font-size: 20px;
     color: #F2BA05;
     text-align: end; 
+    text-shadow: 0.5px 0.5px #000000;
 }
 #about-me{
     background-color: #c9ffff;
     color: #0d0d0d;
     width: 75%;
     margin: 0px auto;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     padding: 30px;
     border: 1px #999999 solid;
 }
@@ -90,6 +91,7 @@ h1{
     font-size: 20px;
     color: #0d0d0d;
     font-family: 'Noto Sans TC', sans-serif;
+    text-shadow: 0.5px 0.5px #000000;
 }
 p::first-letter{
     color: #F2BA05;
@@ -100,4 +102,16 @@ p::first-letter{
 #photo{
     max-height: 50vh;
     max-width: 25vw;
+}
+#footer{
+    height: 20px;
+    padding: 2.5px;
+    background-color: #0528f2;   
+    bottom: 0;
+}
+h6{
+    text-align: center;
+    font-size: 15px;
+    color: #F2BA05;
+    text-shadow: 2px 2px 2px #A67E00, 2px 2px #0d0d0d;
 }
